@@ -1,0 +1,27 @@
+.full-container {
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+.pdfcontainer {
+    /* background-color: aquamarine; */
+    /* height: 50px;
+    padding: 8px; */
+    
+}
+div.DraftEditor-root {
+    border: 1px solid #000;
+    /* background-color:powderblue; */
+    padding: 12px;
+/*   
+    height: ;
+    width: 300px; */
+    overflow-x: auto;
+  }
+div.DraftEditor-editorContainer1,
+div.public-DraftEditor-content {
+    /* height: 100%; */
+    font-family: "Courier New";
+    height: 350px;
+    max-height: 400px;
+    /* overflow: auto; */
+  }

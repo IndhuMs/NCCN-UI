@@ -1,0 +1,22 @@
+.parent-full {
+    display: grid;
+    grid-template-columns: 40% 60%;
+    
+    /* height: 400px; */
+}
+.parent-full .first-half {
+    background-color: whitesmoke;
+    padding-left: 20px;
+     
+}
+.parent-full .second-half {
+    background-color:whitesmoke;
+    width: inherit;
+}
+.Toolbar{
+    background-color: "rgb(11, 175, 240)";
+    min-height:70;
+    max-width:72;
+     display: "flex";
+      justify-content: "space-between"
+}

@@ -1,0 +1,60 @@
+git commands
+
+* cloning:
+git clone https://techmobius@dev.azure.com/techmobius/NAiOmi/_git/NCCN-UI-TOOL
+
+* to run the app:
+cd sampleapp
+npm i (npm i --force)
+npm list (to check packages installed)
+npm start
+
+* to push commits to remote
+git add . 
+git commit -m "commit msg"
+git push origin main
+
+* for seeing unpushed commits:
+git log origin/master..HEAD
+
+
+sample package.json (after giving <npm i> command)
+{
+  "name": "sampleapp",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@testing-library/jest-dom": "^5.16.5",
+    "@testing-library/react": "^13.3.0",
+    "@testing-library/user-event": "^13.5.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-scripts": "5.0.1",
+    "web-vitals": "^2.1.4"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
+--sample app packagae.json
